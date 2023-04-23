@@ -1,6 +1,6 @@
 {
     "verbose": true,
-    "ignore": ["./frontend"],
+    "ignore": ["./client"],
     "execMap": {
       "rb": "ruby",
       "pde": "processing --sketch={{pwd}} --run"
