@@ -44,13 +44,13 @@ function Home() {
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
             />
-            <button
+           {/*  <button
               className="btn btn-outline-primary"
               type="button"
               id="button-addon2"
             >
               Search
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

@@ -54,7 +54,7 @@ function ProtectedRoute({ children }) {
           </div>
 
           <div className="bg-white p-1 flex gap-1">
-            <i className="ri-shield-user-line text-primary"></i>
+            <i className=" text-primary"></i>
             <h1
               className="text-sm underline"
               onClick={() => {
@@ -68,13 +68,13 @@ function ProtectedRoute({ children }) {
               {user.name}
             </h1>
 
-            <i
-              className=" ml-2"
+            <HiOutlineLogout
+              className="ml-2 text-primary cursor-pointer"
               onClick={() => {
                 localStorage.removeItem("token");
                 navigate("/login");
               }}
-            ></i>
+            />
           </div>
         </div>
         <div className=" mt-1 p-1">{children}</div>

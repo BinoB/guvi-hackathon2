@@ -7,6 +7,7 @@ import { HideLoading, ShowLoading } from "../../redux/loadersSlice";
 import StripeCheckout from "react-stripe-checkout";
 import { BookShowTickets, MakePayment } from "../../apicalls/bookings";
 import {  toast } from "react-toastify";
+import screen from "../../assets/screen.jpg";
 
 
 function BookShow() {
@@ -181,8 +182,9 @@ function BookShow() {
           </div>
         )}
       </div>
-      <div>
-  <h6 className="text-center my-5">________________Screen________________</h6>
+      <div className="my-5 d-flex justify-center align-items-center justify-content-center">
+      <img src={screen} class="img-fluid" alt="Responsive image"/>
+  
   
 </div>
 
